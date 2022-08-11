@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+import xlsxwriter
 
 link_1 = 'https://www.angra.rj.gov.br/licitacoes-procedimentos.asp?indexsigla=transp&cd_opcao=0&cd_modal=0&cd_statu=0&cd_pesqu=&cd_ano=2022'
 link_2 = 'https://www.eletronuclear.gov.br/Canais-de-Negocios/Licitacoes/Paginas/Licitacoes.aspx'
