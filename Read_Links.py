@@ -110,6 +110,6 @@ for a in range(0, len(df_link['LINK'])):
   df_link['LINK'].loc[a] = 'https://www.angra.rj.gov.br/' + df_link['LINK'].loc[a]
 
 #writer = pd.ExcelWriter('LINKS_JOIN.xlsx.xlsx', engine='xlsxwriter')
-df_lista.to_excel(writer, sheet_name='LICITA')
-df_link.to_excel(writer, sheet_name='LINK')
+df_lista.to_excel(writer, sheet_name='PREF_ANGRA_LICITA')
+df_link.to_excel(writer, sheet_name='PREF_ANGRA_LINK')
 writer.save()
